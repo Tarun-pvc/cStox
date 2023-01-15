@@ -1,0 +1,16 @@
+.cards {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    width: 100vw; 
+    }
+    .card {
+        text-align: center; 
+        margin: auto;
+    }
+    .card-text{
+        font-weight: 900;
+        color: magenta;
+    }

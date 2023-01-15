@@ -1,0 +1,66 @@
+/* Fading animation */
+.fade {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0.7;
+    }
+
+    33.33333% {
+        opacity: 1;
+    }
+
+    66.66666% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.7;
+    }
+}
+
+
+/* Set the container to hide all slides */
+.slideshow-container {
+    position: absolute;
+    margin: auto;
+}
+
+/* Hide all slides by default */
+.slideshow-slide {
+    display: none;
+}
+
+#navbar {
+    /* z-index: 1;  */
+    width: 100%;
+}
+
+/* Slideshow images perfectly fit in the viewport */
+#slideshow {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+
+
+    -webkit-text-stroke: 1px white;
+    font-weight: 800;
+
+}
+
+.text-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
